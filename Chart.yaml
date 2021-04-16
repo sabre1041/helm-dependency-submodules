@@ -1,0 +1,10 @@
+apiVersion: v2
+name: helm-dependency-submodules
+description: A Helm chart demonstrating a dependency using Git submodules
+type: application
+version: 0.1.0
+
+dependencies:
+- name: quarkus
+  version: 0.0.3
+  repository: file://./dependencies/redhat-helm-charts/alpha/quarkus-chart

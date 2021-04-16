@@ -1,0 +1,7 @@
+---
+
+quarkus:
+  build:
+    enabled: false
+  image:
+    name: quay.io/ablock/gitops-helm-quarkus

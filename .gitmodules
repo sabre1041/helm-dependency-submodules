@@ -1,0 +1,3 @@
+[submodule "dependencies/redhat-helm-charts"]
+	path = dependencies/redhat-helm-charts
+	url = https://github.com/redhat-developer/redhat-helm-charts
